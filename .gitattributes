@@ -1,10 +1,9 @@
 build/** linguist-vendored
-dist/** linguist-vendored
+dist/**  linguist-vendored
 Output/** linguist-vendored
 
-*.iss  linguist-language=Inno Setup     
-*.spec linguist-language=Python         
-
-*.exe  linguist-generated
-*.dll  linguist-generated
-*.pyd  linguist-generated
+*.py    linguist-language=Python
+*.html  linguist-language=HTML
+*.css   linguist-language=CSS
+*.iss   linguist-language=Inno Setup
+*.spec  linguist-language=Python
