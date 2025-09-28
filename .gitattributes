@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
+# Normalizează line-endings (poți păstra asta)
 * text=auto
+
+# Exclude artefactele de build din statistici (nu contează la procente)
+Output/** linguist-vendored
+build/**  linguist-vendored
+dist/**   linguist-vendored
+
+# Clasificare corectă a extensiilor SPECIFICE repo-ului tău
+*.iss   linguist-language=Inno Setup      # installer.iss = Inno Setup, nu TeX/HTML
+*.spec  linguist-language=Python          # PyInstaller .spec = Python
+*.py    linguist-language=Python
+
+# (opțional) Marchează binarele/generatele ca "generated"
+*.exe   linguist-generated
+*.dll   linguist-generated
+*.pyd   linguist-generated
+*.ico   linguist-generated
+
+# (opțional) Asigură-te că fișierele text simple nu sunt contate ca HTML
+*.txt   linguist-language=Text
