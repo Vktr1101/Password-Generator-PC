@@ -1,0 +1,13 @@
+# Marchează artefactele de build ca "vendored" (nu contează în statistici)
+build/* linguist-vendored
+dist/* linguist-vendored
+Output/* linguist-vendored
+
+# Etichetează corect anumite extensii
+*.spec linguist-language=Python           # PyInstaller .spec = Python
+*.iss linguist-language=Inno Setup        # scripturile Inno Setup
+
+# (opțional) Exclude binarele/generatele din calcule
+*.exe linguist-generated
+*.dll linguist-generated
+*.pyd linguist-generated
