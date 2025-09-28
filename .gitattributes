@@ -11,3 +11,5 @@ Output/* linguist-vendored
 *.exe linguist-generated
 *.dll linguist-generated
 *.pyd linguist-generated
+
+*.iss linguist-language=Inno Setup
