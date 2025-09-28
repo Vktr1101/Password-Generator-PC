@@ -1,12 +1,10 @@
-build/* linguist-vendored
-dist/* linguist-vendored
-Output/* linguist-vendored
+build/** linguist-vendored
+dist/** linguist-vendored
+Output/** linguist-vendored
 
-*.spec linguist-language=Python           
-*.iss linguist-language=Inno Setup        
+*.iss  linguist-language=Inno Setup     
+*.spec linguist-language=Python         
 
-*.exe linguist-generated
-*.dll linguist-generated
-*.pyd linguist-generated
-
-*.iss linguist-language=Inno Setup
+*.exe  linguist-generated
+*.dll  linguist-generated
+*.pyd  linguist-generated
