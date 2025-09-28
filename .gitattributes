@@ -1,6 +1,9 @@
-build/** linguist-vendored
-dist/**  linguist-vendored
-Output/** linguist-vendored
+build/**   linguist-vendored
+dist/**    linguist-vendored
+Output/**  linguist-vendored
+*.exe      linguist-generated
+*.dll      linguist-generated
+*.pyd      linguist-generated
 
 *.py    linguist-language=Python
 *.html  linguist-language=HTML
